@@ -3,7 +3,7 @@ CrossChainSwap Smart Contract
 This is a Solidity smart contract for a simple CrossChainSwap functionality. The contract allows users to initiate a swap of ERC20 tokens from one blockchain to another and then complete the swap once the transaction is confirmed on the destination blockchain.
 
 How it Works
-Initiate Swap: To initiate a swap, a user needs to call the initiateSwap function and provide the following parameters:
+Initiate Swap:: To initiate a swap, a user needs to call the initiateSwap function and provide the following parameters:
 
 token: The address of the ERC20 token to be swapped.
 amount: The amount of ERC20 tokens to be swapped.
