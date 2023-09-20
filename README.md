@@ -13,8 +13,6 @@ swapHash: A unique identifier (usually generated off-chain) for the swap.
 The contract will transfer the specified amount of ERC20 tokens from the caller's address to the contract's address and store the swap details in the swaps mapping.
 
 Complete Swap: Once the swap transaction is confirmed on the destination blockchain, the participant can call the completeSwap function and provide the swapHash. The contract will verify that the participant is the one who initiated the swap and that the swap is not already completed. If the conditions are met, the contract will transfer the swapped tokens from the contract's address to the participant's address, completing the swap.
-
-
 Requirements
 
 This smart contract uses the OpenZeppelin ERC20 and Ownable libraries. Please make sure to include the relevant dependencies in your project.
